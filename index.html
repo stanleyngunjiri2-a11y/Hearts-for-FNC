@@ -1,0 +1,292 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love, Francy ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Hearts Container -->
+    <div id="hearts-container"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            ❤️ Francy
+        </div>
+
+        <nav>
+            <button class="nav-btn active" data-page="home">Home</button>
+            <button class="nav-btn" data-page="gallery">Gallery</button>
+            <button class="nav-btn" data-page="message">My Message</button>
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME PAGE ================= -->
+    <main id="home" class="page active-page">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    A little something for the most special person ❤️
+                </p>
+
+                <h1>
+                    For My Beautiful <span>Francy</span>
+                </h1>
+
+                <p class="hero-text">
+                    If I could give you one thing in life,
+                    I would give you the ability to see yourself
+                    through my eyes. Then you would know just
+                    how incredibly special you are to me.
+                </p>
+
+                <button id="loveButton" class="main-btn">
+                    ❤️ Click For A Surprise
+                </button>
+
+            </div>
+
+            <div class="heart-animation">
+                <div class="big-heart">❤️</div>
+            </div>
+
+        </section>
+
+        <section class="love-counter">
+
+            <h2>My Love For You</h2>
+
+            <div class="counter-boxes">
+
+                <div class="counter-card">
+                    <span id="days">0</span>
+                    <p>Days</p>
+                </div>
+
+                <div class="counter-card">
+                    <span id="hours">0</span>
+                    <p>Hours</p>
+                </div>
+
+                <div class="counter-card">
+                    <span id="minutes">0</span>
+                    <p>Minutes</p>
+                </div>
+
+                <div class="counter-card">
+                    <span id="seconds">0</span>
+                    <p>Seconds</p>
+                </div>
+
+            </div>
+
+            <p class="counter-text">
+                And my love for you keeps growing every single second. ❤️
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= GALLERY PAGE ================= -->
+    <main id="gallery" class="page">
+
+        <section class="page-header">
+
+            <h1>Our Beautiful Memories 📸</h1>
+
+            <p>
+                Every picture tells a story, and every memory with you
+                is a story I will always treasure.
+            </p>
+
+        </section>
+
+
+        <section class="gallery-grid">
+
+            <!-- Replace these image URLs with your own photos -->
+
+            <div class="gallery-card">
+                <img src="IMG-20260608-WA0006.jpg"
+                     alt="Love memory">
+                <div class="photo-caption">
+                    <h3>My Favorite Person ❤️</h3>
+                    <p>You make my world brighter.</p>
+                </div>
+            </div>
+
+<div   class="gallery-card" >
+<img src="IMG-20260727-WA0020.jpg" alt="Love memory">
+
+</div>
+
+
+
+<div   class="gallery-card" >
+<img src="IMG-20260727-WA0021.jpg" alt="Love memory">
+
+</div>
+
+
+<div   class="gallery-card" >
+<img src="IMG-20260727-WA0023.jpg" alt="Love memory">
+
+</div>
+
+
+            <div class="gallery-card">
+               <video src="VID-20260527-WA0004.mp4" controls preload="metadata" playsinline > 
+                 
+
+               </video>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <p class="gallery-note">
+            HAPPY , HAPPY GIRLFRIENDS DAY MAMAA.
+        </p>
+
+    </main>
+
+
+    <!-- ================= MESSAGE PAGE ================= -->
+    <main id="message" class="page">
+
+        <section class="message-section">
+
+            <div class="envelope">
+                💌
+            </div>
+
+            <h1>
+                A Message For You, Francy
+            </h1>
+
+            <div class="message-card">
+
+                <p>
+                    My Dearest Francy,
+                </p>
+
+                <p>
+                    I don't always know how to put everything I feel
+                    into words, but I want you to know something very
+                    important.
+                </p>
+
+                <p>
+                    You are one of the most beautiful parts of my life.
+                    Your smile, your presence, your kindness, and simply
+                    being you make my world a little brighter.
+                </p>
+
+                <p>
+                    Thank you for every moment, every smile, every laugh,
+                    and every memory we share. I appreciate you more than
+                    words can ever explain.
+                </p>
+
+                <p>
+                    No matter how many times I say it, it will never feel
+                    like enough...
+                </p>
+
+                <h2>
+                    I LOVE YOU, FRANCY ❤️
+                </h2>
+
+                <p> 
+                    Today, tomorrow, and every day that follows,
+                    I hope you always remember how special you are to me.
+                    
+                </p>
+                
+<p>   <h3>
+    Happy , Happy Girlfriends Day Mamaa😚💕  </h3>  </p>
+                <p class="signature">
+                    Forever yours ❤️
+                </p>
+
+            </div>
+
+            <button id="heartMessageButton" class="main-btn">
+                💖 Send Love
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Surprise Modal -->
+    <div id="surpriseModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close-btn">
+                ×
+            </button>
+
+            <div class="modal-heart">
+                ❤️
+            </div>
+
+            <h2>
+                Surprise, Francy! 💕
+            </h2>
+
+            <p>
+                You are loved more than you know,
+                appreciated more than you realize,
+                and cherished more than words can explain.
+            </p>
+
+            <h3>
+                I LOVE YOU ❤️
+            </h3>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Made with ❤️ especially for Francy
+        </p>
+
+        <p>
+            © <span id="year"></span> Forever & Always
+        </p>
+
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+
